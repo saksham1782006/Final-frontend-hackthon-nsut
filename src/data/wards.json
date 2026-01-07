@@ -1,0 +1,115 @@
+{
+  "city": "Delhi",
+  "wards": [
+    {
+      "ward_id": 1,
+      "ward_name": "Civil Lines",
+      "zone": "North Delhi"
+    },
+    {
+      "ward_id": 2,
+      "ward_name": "Karol Bagh",
+      "zone": "Central Delhi"
+    },
+    {
+      "ward_id": 3,
+      "ward_name": "Rohini",
+      "zone": "North West Delhi"
+    },
+    {
+      "ward_id": 4,
+      "ward_name": "Dwarka",
+      "zone": "South West Delhi"
+    },
+    {
+      "ward_id": 5,
+      "ward_name": "Saket",
+      "zone": "South Delhi"
+    },
+    {
+      "ward_id": 6,
+      "ward_name": "Laxmi Nagar",
+      "zone": "East Delhi"
+    },
+    {
+      "ward_id": 7,
+      "ward_name": "Mayur Vihar",
+      "zone": "East Delhi"
+    },
+    {
+      "ward_id": 8,
+      "ward_name": "Najafgarh",
+      "zone": "South West Delhi"
+    },
+    {
+      "ward_id": 9,
+      "ward_name": "Shahdara",
+      "zone": "North East Delhi"
+    },
+    {
+      "ward_id": 10,
+      "ward_name": "Okhla",
+      "zone": "South East Delhi"
+    },
+    {
+      "ward_id": 11,
+      "ward_name": "Pitampura",
+      "zone": "North West Delhi"
+    },
+    {
+      "ward_id": 12,
+      "ward_name": "Ashok Vihar",
+      "zone": "North West Delhi"
+    },
+    {
+      "ward_id": 13,
+      "ward_name": "Model Town",
+      "zone": "North Delhi"
+    },
+    {
+      "ward_id": 14,
+      "ward_name": "Rajouri Garden",
+      "zone": "West Delhi"
+    },
+    {
+      "ward_id": 15,
+      "ward_name": "Janakpuri",
+      "zone": "West Delhi"
+    },
+    {
+      "ward_id": 16,
+      "ward_name": "Vasant Kunj",
+      "zone": "South Delhi"
+    },
+    {
+      "ward_id": 17,
+      "ward_name": "Hauz Khas",
+      "zone": "South Delhi"
+    },
+    {
+      "ward_id": 18,
+      "ward_name": "Greater Kailash",
+      "zone": "South Delhi"
+    },
+    {
+      "ward_id": 19,
+      "ward_name": "Preet Vihar",
+      "zone": "East Delhi"
+    },
+    {
+      "ward_id": 20,
+      "ward_name": "Patparganj",
+      "zone": "East Delhi"
+    },
+    {
+      "ward_id": 21,
+      "ward_name": "Seelampur",
+      "zone": "North East Delhi"
+    },
+    {
+      "ward_id": 22,
+      "ward_name": "Seemapuri",
+      "zone": "North East Delhi"
+    }
+  ]
+}

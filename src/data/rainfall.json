@@ -1,0 +1,337 @@
+{
+  "city": "Delhi",
+  "unit": "mm",
+  "week": "2026-07-01 to 2026-07-07",
+  "wards": [
+    {
+      "ward_id": 1,
+      "ward_name": "Civil Lines",
+      "zone": "North Delhi",
+      "daily_rainfall": {
+        "monday": 12,
+        "tuesday": 18,
+        "wednesday": 25,
+        "thursday": 8,
+        "friday": 0,
+        "saturday": 14,
+        "sunday": 20
+      },
+      "weekly_total": 97
+    },
+    {
+      "ward_id": 2,
+      "ward_name": "Karol Bagh",
+      "zone": "Central Delhi",
+      "daily_rainfall": {
+        "monday": 20,
+        "tuesday": 35,
+        "wednesday": 42,
+        "thursday": 10,
+        "friday": 0,
+        "saturday": 18,
+        "sunday": 27
+      },
+      "weekly_total": 152
+    },
+    {
+      "ward_id": 3,
+      "ward_name": "Rohini",
+      "zone": "North West Delhi",
+      "daily_rainfall": {
+        "monday": 5,
+        "tuesday": 12,
+        "wednesday": 30,
+        "thursday": 22,
+        "friday": 6,
+        "saturday": 10,
+        "sunday": 15
+      },
+      "weekly_total": 100
+    },
+    {
+      "ward_id": 4,
+      "ward_name": "Dwarka",
+      "zone": "South West Delhi",
+      "daily_rainfall": {
+        "monday": 18,
+        "tuesday": 25,
+        "wednesday": 48,
+        "thursday": 20,
+        "friday": 5,
+        "saturday": 12,
+        "sunday": 30
+      },
+      "weekly_total": 158
+    },
+    {
+      "ward_id": 5,
+      "ward_name": "Saket",
+      "zone": "South Delhi",
+      "daily_rainfall": {
+        "monday": 10,
+        "tuesday": 20,
+        "wednesday": 35,
+        "thursday": 15,
+        "friday": 0,
+        "saturday": 8,
+        "sunday": 12
+      },
+      "weekly_total": 100
+    },
+    {
+      "ward_id": 6,
+      "ward_name": "Laxmi Nagar",
+      "zone": "East Delhi",
+      "daily_rainfall": {
+        "monday": 22,
+        "tuesday": 40,
+        "wednesday": 55,
+        "thursday": 18,
+        "friday": 7,
+        "saturday": 20,
+        "sunday": 33
+      },
+      "weekly_total": 195
+    },
+    {
+      "ward_id": 7,
+      "ward_name": "Mayur Vihar",
+      "zone": "East Delhi",
+      "daily_rainfall": {
+        "monday": 15,
+        "tuesday": 28,
+        "wednesday": 45,
+        "thursday": 12,
+        "friday": 4,
+        "saturday": 10,
+        "sunday": 18
+      },
+      "weekly_total": 132
+    },
+    {
+      "ward_id": 8,
+      "ward_name": "Najafgarh",
+      "zone": "South West Delhi",
+      "daily_rainfall": {
+        "monday": 30,
+        "tuesday": 50,
+        "wednesday": 65,
+        "thursday": 28,
+        "friday": 10,
+        "saturday": 22,
+        "sunday": 40
+      },
+      "weekly_total": 245
+    },
+    {
+      "ward_id": 9,
+      "ward_name": "Shahdara",
+      "zone": "North East Delhi",
+      "daily_rainfall": {
+        "monday": 25,
+        "tuesday": 45,
+        "wednesday": 60,
+        "thursday": 20,
+        "friday": 8,
+        "saturday": 18,
+        "sunday": 35
+      },
+      "weekly_total": 211
+    },
+    {
+      "ward_id": 10,
+      "ward_name": "Okhla",
+      "zone": "South East Delhi",
+      "daily_rainfall": {
+        "monday": 12,
+        "tuesday": 22,
+        "wednesday": 38,
+        "thursday": 14,
+        "friday": 3,
+        "saturday": 9,
+        "sunday": 16
+      },
+      "weekly_total": 114
+    },
+    {
+      "ward_id": 11,
+      "ward_name": "Pitampura",
+      "zone": "North West Delhi",
+      "daily_rainfall": {
+        "monday": 16,
+        "tuesday": 30,
+        "wednesday": 42,
+        "thursday": 15,
+        "friday": 6,
+        "saturday": 9,
+        "sunday": 10
+      },
+      "weekly_total": 128
+    },
+    {
+      "ward_id": 12,
+      "ward_name": "Ashok Vihar",
+      "zone": "North West Delhi",
+      "daily_rainfall": {
+        "monday": 14,
+        "tuesday": 26,
+        "wednesday": 38,
+        "thursday": 12,
+        "friday": 5,
+        "saturday": 8,
+        "sunday": 16
+      },
+      "weekly_total": 119
+    },
+    {
+      "ward_id": 13,
+      "ward_name": "Model Town",
+      "zone": "North Delhi",
+      "daily_rainfall": {
+        "monday": 12,
+        "tuesday": 24,
+        "wednesday": 36,
+        "thursday": 10,
+        "friday": 4,
+        "saturday": 8,
+        "sunday": 10
+      },
+      "weekly_total": 104
+    },
+    {
+      "ward_id": 14,
+      "ward_name": "Rajouri Garden",
+      "zone": "West Delhi",
+      "daily_rainfall": {
+        "monday": 18,
+        "tuesday": 32,
+        "wednesday": 45,
+        "thursday": 14,
+        "friday": 6,
+        "saturday": 10,
+        "sunday": 18
+      },
+      "weekly_total": 143
+    },
+    {
+      "ward_id": 15,
+      "ward_name": "Janakpuri",
+      "zone": "West Delhi",
+      "daily_rainfall": {
+        "monday": 20,
+        "tuesday": 34,
+        "wednesday": 50,
+        "thursday": 18,
+        "friday": 6,
+        "saturday": 14,
+        "sunday": 25
+      },
+      "weekly_total": 167
+    },
+    {
+      "ward_id": 16,
+      "ward_name": "Vasant Kunj",
+      "zone": "South Delhi",
+      "daily_rainfall": {
+        "monday": 14,
+        "tuesday": 22,
+        "wednesday": 35,
+        "thursday": 12,
+        "friday": 4,
+        "saturday": 12,
+        "sunday": 22
+      },
+      "weekly_total": 121
+    },
+    {
+      "ward_id": 17,
+      "ward_name": "Hauz Khas",
+      "zone": "South Delhi",
+      "daily_rainfall": {
+        "monday": 10,
+        "tuesday": 18,
+        "wednesday": 28,
+        "thursday": 9,
+        "friday": 3,
+        "saturday": 7,
+        "sunday": 23
+      },
+      "weekly_total": 98
+    },
+    {
+      "ward_id": 18,
+      "ward_name": "Greater Kailash",
+      "zone": "South Delhi",
+      "daily_rainfall": {
+        "monday": 8,
+        "tuesday": 16,
+        "wednesday": 26,
+        "thursday": 8,
+        "friday": 2,
+        "saturday": 7,
+        "sunday": 22
+      },
+      "weekly_total": 89
+    },
+    {
+      "ward_id": 19,
+      "ward_name": "Preet Vihar",
+      "zone": "East Delhi",
+      "daily_rainfall": {
+        "monday": 18,
+        "tuesday": 30,
+        "wednesday": 42,
+        "thursday": 14,
+        "friday": 6,
+        "saturday": 10,
+        "sunday": 16
+      },
+      "weekly_total": 136
+    },
+    {
+      "ward_id": 20,
+      "ward_name": "Patparganj",
+      "zone": "East Delhi",
+      "daily_rainfall": {
+        "monday": 20,
+        "tuesday": 34,
+        "wednesday": 46,
+        "thursday": 16,
+        "friday": 7,
+        "saturday": 12,
+        "sunday": 14
+      },
+      "weekly_total": 149
+    },
+    {
+      "ward_id": 21,
+      "ward_name": "Seelampur",
+      "zone": "North East Delhi",
+      "daily_rainfall": {
+        "monday": 32,
+        "tuesday": 48,
+        "wednesday": 70,
+        "thursday": 30,
+        "friday": 12,
+        "saturday": 25,
+        "sunday": 45
+      },
+      "weekly_total": 262
+    },
+    {
+      "ward_id": 22,
+      "ward_name": "Seemapuri",
+      "zone": "North East Delhi",
+      "daily_rainfall": {
+        "monday": 28,
+        "tuesday": 44,
+        "wednesday": 65,
+        "thursday": 26,
+        "friday": 10,
+        "saturday": 24,
+        "sunday": 41
+      },
+      "weekly_total": 238
+    }
+  ]
+}

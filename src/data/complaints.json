@@ -1,0 +1,338 @@
+{
+  "city": "Delhi",
+  "week": "2026-07-01 to 2026-07-07",
+  "wards": [
+    {
+      "ward_id": 1,
+      "ward_name": "Civil Lines",
+      "zone": "North Delhi",
+      "total_complaints": 12,
+      "daily_complaints": {
+        "monday": 1,
+        "tuesday": 2,
+        "wednesday": 3,
+        "thursday": 2,
+        "friday": 1,
+        "saturday": 2,
+        "sunday": 1
+      }
+    },
+    {
+      "ward_id": 2,
+      "ward_name": "Karol Bagh",
+      "zone": "Central Delhi",
+      "total_complaints": 25,
+      "daily_complaints": {
+        "monday": 3,
+        "tuesday": 4,
+        "wednesday": 5,
+        "thursday": 4,
+        "friday": 3,
+        "saturday": 3,
+        "sunday": 3
+      }
+    },
+    {
+      "ward_id": 3,
+      "ward_name": "Rohini",
+      "zone": "North West Delhi",
+      "total_complaints": 18,
+      "daily_complaints": {
+        "monday": 2,
+        "tuesday": 3,
+        "wednesday": 4,
+        "thursday": 3,
+        "friday": 2,
+        "saturday": 2,
+        "sunday": 2
+      }
+    },
+    {
+      "ward_id": 4,
+      "ward_name": "Dwarka",
+      "zone": "South West Delhi",
+      "total_complaints": 30,
+      "daily_complaints": {
+        "monday": 4,
+        "tuesday": 5,
+        "wednesday": 6,
+        "thursday": 5,
+        "friday": 4,
+        "saturday": 3,
+        "sunday": 3
+      }
+    },
+    {
+      "ward_id": 5,
+      "ward_name": "Saket",
+      "zone": "South Delhi",
+      "total_complaints": 10,
+      "daily_complaints": {
+        "monday": 1,
+        "tuesday": 2,
+        "wednesday": 2,
+        "thursday": 2,
+        "friday": 1,
+        "saturday": 1,
+        "sunday": 1
+      }
+    },
+    {
+      "ward_id": 6,
+      "ward_name": "Laxmi Nagar",
+      "zone": "East Delhi",
+      "total_complaints": 40,
+      "daily_complaints": {
+        "monday": 5,
+        "tuesday": 6,
+        "wednesday": 7,
+        "thursday": 6,
+        "friday": 6,
+        "saturday": 5,
+        "sunday": 5
+      }
+    },
+    {
+      "ward_id": 7,
+      "ward_name": "Mayur Vihar",
+      "zone": "East Delhi",
+      "total_complaints": 22,
+      "daily_complaints": {
+        "monday": 3,
+        "tuesday": 4,
+        "wednesday": 4,
+        "thursday": 3,
+        "friday": 3,
+        "saturday": 3,
+        "sunday": 2
+      }
+    },
+    {
+      "ward_id": 8,
+      "ward_name": "Najafgarh",
+      "zone": "South West Delhi",
+      "total_complaints": 55,
+      "daily_complaints": {
+        "monday": 6,
+        "tuesday": 8,
+        "wednesday": 10,
+        "thursday": 9,
+        "friday": 7,
+        "saturday": 8,
+        "sunday": 7
+      }
+    },
+    {
+      "ward_id": 9,
+      "ward_name": "Shahdara",
+      "zone": "North East Delhi",
+      "total_complaints": 48,
+      "daily_complaints": {
+        "monday": 6,
+        "tuesday": 7,
+        "wednesday": 8,
+        "thursday": 7,
+        "friday": 7,
+        "saturday": 7,
+        "sunday": 6
+      }
+    },
+    {
+      "ward_id": 10,
+      "ward_name": "Okhla",
+      "zone": "South East Delhi",
+      "total_complaints": 20,
+      "daily_complaints": {
+        "monday": 3,
+        "tuesday": 3,
+        "wednesday": 4,
+        "thursday": 3,
+        "friday": 3,
+        "saturday": 2,
+        "sunday": 2
+      }
+    },
+
+    {
+      "ward_id": 11,
+      "ward_name": "Pitampura",
+      "zone": "North West Delhi",
+      "total_complaints": 26,
+      "daily_complaints": {
+        "monday": 3,
+        "tuesday": 4,
+        "wednesday": 5,
+        "thursday": 4,
+        "friday": 4,
+        "saturday": 3,
+        "sunday": 3
+      }
+    },
+    {
+      "ward_id": 12,
+      "ward_name": "Ashok Vihar",
+      "zone": "North West Delhi",
+      "total_complaints": 23,
+      "daily_complaints": {
+        "monday": 3,
+        "tuesday": 4,
+        "wednesday": 4,
+        "thursday": 4,
+        "friday": 3,
+        "saturday": 3,
+        "sunday": 2
+      }
+    },
+    {
+      "ward_id": 13,
+      "ward_name": "Model Town",
+      "zone": "North Delhi",
+      "total_complaints": 19,
+      "daily_complaints": {
+        "monday": 2,
+        "tuesday": 3,
+        "wednesday": 4,
+        "thursday": 3,
+        "friday": 3,
+        "saturday": 2,
+        "sunday": 2
+      }
+    },
+    {
+      "ward_id": 14,
+      "ward_name": "Rajouri Garden",
+      "zone": "West Delhi",
+      "total_complaints": 28,
+      "daily_complaints": {
+        "monday": 4,
+        "tuesday": 4,
+        "wednesday": 5,
+        "thursday": 5,
+        "friday": 4,
+        "saturday": 3,
+        "sunday": 3
+      }
+    },
+    {
+      "ward_id": 15,
+      "ward_name": "Janakpuri",
+      "zone": "West Delhi",
+      "total_complaints": 33,
+      "daily_complaints": {
+        "monday": 5,
+        "tuesday": 5,
+        "wednesday": 6,
+        "thursday": 6,
+        "friday": 4,
+        "saturday": 4,
+        "sunday": 3
+      }
+    },
+    {
+      "ward_id": 16,
+      "ward_name": "Vasant Kunj",
+      "zone": "South Delhi",
+      "total_complaints": 21,
+      "daily_complaints": {
+        "monday": 3,
+        "tuesday": 3,
+        "wednesday": 4,
+        "thursday": 4,
+        "friday": 3,
+        "saturday": 2,
+        "sunday": 2
+      }
+    },
+    {
+      "ward_id": 17,
+      "ward_name": "Hauz Khas",
+      "zone": "South Delhi",
+      "total_complaints": 17,
+      "daily_complaints": {
+        "monday": 2,
+        "tuesday": 3,
+        "wednesday": 3,
+        "thursday": 3,
+        "friday": 2,
+        "saturday": 2,
+        "sunday": 2
+      }
+    },
+    {
+      "ward_id": 18,
+      "ward_name": "Greater Kailash",
+      "zone": "South Delhi",
+      "total_complaints": 15,
+      "daily_complaints": {
+        "monday": 2,
+        "tuesday": 2,
+        "wednesday": 3,
+        "thursday": 3,
+        "friday": 2,
+        "saturday": 2,
+        "sunday": 1
+      }
+    },
+    {
+      "ward_id": 19,
+      "ward_name": "Preet Vihar",
+      "zone": "East Delhi",
+      "total_complaints": 27,
+      "daily_complaints": {
+        "monday": 4,
+        "tuesday": 4,
+        "wednesday": 5,
+        "thursday": 4,
+        "friday": 4,
+        "saturday": 3,
+        "sunday": 3
+      }
+    },
+    {
+      "ward_id": 20,
+      "ward_name": "Patparganj",
+      "zone": "East Delhi",
+      "total_complaints": 29,
+      "daily_complaints": {
+        "monday": 4,
+        "tuesday": 5,
+        "wednesday": 5,
+        "thursday": 5,
+        "friday": 4,
+        "saturday": 3,
+        "sunday": 3
+      }
+    },
+    {
+      "ward_id": 21,
+      "ward_name": "Seelampur",
+      "zone": "North East Delhi",
+      "total_complaints": 60,
+      "daily_complaints": {
+        "monday": 7,
+        "tuesday": 9,
+        "wednesday": 12,
+        "thursday": 10,
+        "friday": 8,
+        "saturday": 7,
+        "sunday": 7
+      }
+    },
+    {
+      "ward_id": 22,
+      "ward_name": "Seemapuri",
+      "zone": "North East Delhi",
+      "total_complaints": 52,
+      "daily_complaints": {
+        "monday": 6,
+        "tuesday": 8,
+        "wednesday": 10,
+        "thursday": 9,
+        "friday": 7,
+        "saturday": 6,
+        "sunday": 6
+      }
+    }
+  ]
+}
+
