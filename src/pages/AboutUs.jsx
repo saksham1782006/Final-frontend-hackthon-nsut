@@ -2,103 +2,120 @@ import React from "react";
 
 function AboutUs() {
   return (
-    <div className="h-full overflow-y-auto px-8 py-6 bg-gray-50">
-      <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-sm p-8 space-y-8">
+    <div className="h-full overflow-y-auto px-8 py-8 bg-gradient-to-br from-gray-50 to-blue-50">
+      <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-lg p-10 space-y-12 border border-gray-200">
 
         {/* Title */}
-        <div>
-          <h1 className="text-2xl font-bold text-gray-800">
-            About Hydro Alert
+        <header>
+          <h1 className="text-4xl font-bold text-gray-900 tracking-tight border-b-2 border-blue-500 pb-4">
+            ABOUT HYDRO ALERT
           </h1>
-          <p className="text-gray-500 mt-2">
-            Understanding the purpose and vision behind the platform
+          <p className="text-gray-600 mt-4 text-lg leading-relaxed">
+            A ward-level rainfall intelligence system built to improve urban
+            awareness during heavy rainfall and water-logging events.
           </p>
-        </div>
+        </header>
 
-        {/* What is Hydro Alert */}
+        {/* Overview */}
         <section>
-          <h2 className="text-lg font-semibold text-gray-800 mb-2">
-            What is Hydro Alert?
+          <h2 className="text-xl font-bold text-gray-800 mb-4 uppercase tracking-wide flex items-center gap-2">
+            <span className="w-1 h-6 bg-blue-500 rounded"></span>
+            An Overview of Hydro Alert
           </h2>
-          <p className="text-gray-600 leading-relaxed">
-            <strong>Hydro Alert</strong> is a water-logging risk monitoring and
-            visualization platform designed to analyze rainfall impact across
-            urban wards. It provides a centralized dashboard to identify
-            high-risk areas, visualize rainfall distribution, and support
-            timely awareness during heavy rainfall events.
+          <p className="text-gray-700 leading-relaxed text-base">
+            <span className="font-bold text-blue-600">Hydro Alert</span> is a
+            rainfall monitoring and risk-visualization platform focused on
+            urban wards. Instead of raw weather numbers, it presents
+            <span className="font-semibold"> clear, location-specific insights </span>
+            that help users understand where water-logging risks are building
+            up during intense rainfall.
           </p>
         </section>
 
         {/* Problem */}
         <section>
-          <h2 className="text-lg font-semibold text-gray-800 mb-2">
-            The Problem
+          <h2 className="text-xl font-bold text-gray-800 mb-4 uppercase tracking-wide flex items-center gap-2">
+            <span className="w-1 h-6 bg-blue-500 rounded"></span>
+            Hydro Alert's Approach
           </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Urban flooding and water-logging are recurring challenges in
-            densely populated cities. Heavy rainfall often leads to traffic
-            congestion, infrastructure stress, and public safety concerns.
-            Lack of ward-level visibility makes it difficult to respond
-            quickly and effectively.
+          <p className="text-gray-700 leading-relaxed text-base">
+            In dense cities, heavy rainfall often turns into flooding,
+            traffic paralysis, and public safety hazards. The problem isn't
+            just rain — it's the lack of
+            <span className="font-semibold"> ward-level visibility </span>.
+            Without localized insight, response efforts are delayed and
+            decisions are made reactively rather than proactively.
           </p>
         </section>
 
         {/* Solution */}
         <section>
-          <h2 className="text-lg font-semibold text-gray-800 mb-2">
-            Our Solution
+          <h2 className="text-xl font-bold text-gray-800 mb-4 uppercase tracking-wide flex items-center gap-2">
+            <span className="w-1 h-6 bg-blue-500 rounded"></span>
+            What Hydro Alert does differently
           </h2>
-          <p className="text-gray-600 leading-relaxed">
-            Hydro Alert bridges this gap by combining rainfall data with
-            ward-based analysis. Through an interactive map, focused alerts,
-            and daily summaries, the platform transforms raw rainfall data
-            into clear, actionable insights for decision-makers and citizens.
+          <p className="text-gray-700 leading-relaxed text-base">
+            Hydro Alert connects rainfall data directly to city wards and
+            presents it through an interactive map, focused alerts, and
+            summarized indicators. This turns scattered data into
+            <span className="font-semibold"> practical situational awareness </span>
+            that can be understood at a glance.
           </p>
         </section>
 
         {/* Features */}
         <section>
-          <h2 className="text-lg font-semibold text-gray-800 mb-3">
-            Key Features
+          <h2 className="text-xl font-bold text-gray-800 mb-5 uppercase tracking-wide flex items-center gap-2">
+            <span className="w-1 h-6 bg-blue-500 rounded"></span>
+            Core Capabilities
           </h2>
-          <ul className="list-disc list-inside text-gray-600 space-y-1">
-            <li>Ward-level rainfall monitoring</li>
-            <li>High-risk area identification</li>
-            <li>Interactive map-based visualization</li>
-            <li>Daily rainfall summaries and insights</li>
-            <li>Alert-focused dashboard design</li>
+          <ul className="space-y-3 text-gray-700">
+            <li className="flex items-start gap-3">
+              <span className="text-blue-500 text-xl">•</span>
+              <span>Rainfall tracking at ward granularity</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-blue-500 text-xl">•</span>
+              <span>Identification of high-risk water-logging zones</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-blue-500 text-xl">•</span>
+              <span>Map-based visual exploration of risk patterns</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-blue-500 text-xl">•</span>
+              <span>Daily summaries for quick assessment</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="text-blue-500 text-xl">•</span>
+              <span>Alert-oriented dashboard for focused attention</span>
+            </li>
           </ul>
         </section>
 
         {/* Audience */}
         <section>
-          <h2 className="text-lg font-semibold text-gray-800 mb-2">
-            Who is it for?
+          <h2 className="text-xl font-bold text-gray-800 mb-4 uppercase tracking-wide flex items-center gap-2">
+            <span className="w-1 h-6 bg-blue-500 rounded"></span>
+            Intended Users
           </h2>
-          <p className="text-gray-600 leading-relaxed">
-            This platform is intended for municipal authorities, disaster
-            response teams, urban planners, and citizens seeking timely
-            awareness of water-logging risks within their city.
+          <p className="text-gray-700 leading-relaxed text-base">
+            The platform is intended for municipal teams, disaster response
+            units, urban planners, and citizens who want
+            <span className="font-semibold"> calm, clear visibility </span>
+            into rainfall-related risks within their city.
           </p>
         </section>
 
-        {/* Data Disclaimer */}
-        <section className="bg-gray-50 border border-gray-200 rounded-lg p-4">
-          <h2 className="text-sm font-semibold text-gray-700 mb-1">
-            Data & Disclaimer
-          </h2>
-          <p className="text-sm text-gray-600 leading-relaxed">
-            The data presented in this dashboard is for analytical and
-            demonstration purposes. Operational decisions should always be
-            based on official meteorological and municipal data sources.
-          </p>
-        </section>
-
-        {/* Vision */}
-        <section>
-          <p className="text-gray-700 font-medium">
-            Hydro Alert aims to strengthen urban resilience by transforming
-            rainfall data into meaningful, actionable insights.
+        {/* Disclaimer */}
+        <section className="bg-gradient-to-r from-blue-50 to-cyan-50 border-l-4 border-blue-500 rounded-lg p-6 shadow-sm">
+          <h3 className="text-lg font-bold text-gray-800 mb-3 flex items-center gap-2">
+             Data Disclaimer
+          </h3>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            This dashboard is designed for analytical and demonstration use.
+            Operational decisions should always rely on verified meteorological
+            and municipal data sources.
           </p>
         </section>
 

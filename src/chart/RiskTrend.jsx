@@ -114,38 +114,38 @@ function RiskTrendChart() {
   };
 
   return (
-    <div className="bg-white rounded-xl p-4 h-80 w-full max-w-160 shadow-sm">
+    <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-5 h-80 w-full">
       {/* HEADER */}
-      <div className="flex justify-between items-start mb-2">
+      <div className="flex justify-between items-start mb-4">
         <div>
-          <h2 className="text-sm font-semibold">
+          <h2 className="text-base font-bold text-gray-800">
             Risk Trend – {selectedWard}
           </h2>
-          <p className="text-xs text-gray-500">
+          <p className="text-xs text-gray-500 mt-1">
             Daily Rainfall vs Daily Risk Score
           </p>
         </div>
 
         {/* CUSTOM DROPDOWN */}
-        <div className="relative w-48">
+        <div className="relative">
           <button
             onClick={() => setOpen(!open)}
-            className="w-full rounded-md px-3 py-1 text-sm text-left bg-gray-100 hover:bg-gray-200 transition"
+            className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 transition-colors border border-gray-300 shadow-sm"
           >
-            {selectedWard}
+            {selectedWard} ▼
           </button>
 
           {open && (
-            <div className="absolute z-10 mt-1 w-full bg-white rounded-md shadow">
+            <div className="absolute right-0 mt-2 w-56 bg-white border border-gray-200 rounded-lg shadow-xl z-20">
               <input
                 type="text"
                 placeholder="Search ward..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full px-2 py-1 text-sm border-b outline-none"
+                className="w-full px-3 py-2 text-sm border-b border-gray-200 outline-none focus:ring-2 focus:ring-blue-500 rounded-t-lg"
               />
 
-              <div className="max-h-40 overflow-y-auto">
+              <div className="max-h-48 overflow-y-auto">
                 {filteredWards.map((ward) => (
                   <div
                     key={ward.ward_id}
@@ -154,14 +154,14 @@ function RiskTrendChart() {
                       setOpen(false);
                       setSearch("");
                     }}
-                    className="px-3 py-1 text-sm hover:bg-gray-100 cursor-pointer"
+                    className="px-3 py-2 text-sm hover:bg-blue-50 cursor-pointer transition-colors"
                   >
                     {ward.ward_name}
                   </div>
                 ))}
 
                 {filteredWards.length === 0 && (
-                  <div className="px-3 py-2 text-xs text-gray-500">
+                  <div className="px-3 py-2 text-xs text-gray-500 text-center">
                     No wards found
                   </div>
                 )}
@@ -172,7 +172,7 @@ function RiskTrendChart() {
       </div>
 
       {/* CHART */}
-      <div className="h-57.5">
+      <div className="h-64">
         <Line data={data} options={options} />
       </div>
     </div>
@@ -180,5 +180,3 @@ function RiskTrendChart() {
 }
 
 export default RiskTrendChart;
-
-

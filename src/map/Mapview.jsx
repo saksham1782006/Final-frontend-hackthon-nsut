@@ -15,7 +15,7 @@ const Mapview = ({
   interactive = true,
 }) => {
   return (
-    <div className="relative w-full" style={{ height }}>
+    <div className="relative w-full rounded-lg overflow-hidden shadow-lg border border-gray-200" style={{ height }}>
       <MapContainer
         bounds={DELHI_BOUNDS}
         zoom={zoom}

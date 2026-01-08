@@ -76,22 +76,27 @@ const TopRiskWards = ({ limit = 10 }) => {
   };
 
   return (
-    <div className="bg-white shadow rounded-xl p-4 h-90">
-      <div className="flex items-center justify-between mb-2">
-        <h3 className="text-sm font-semibold">
-          Top {limit} High-Risk Wards
-        </h3>
+    <div className="bg-white shadow-lg border border-gray-200 rounded-xl p-5 h-96">
+      <div className="flex items-center justify-between mb-4">
+        <div>
+          <h3 className="text-base font-bold text-gray-800">
+            Top {limit} High-Risk Wards
+          </h3>
+          <p className="text-xs text-gray-500 mt-1">
+            {mode === "weekly" ? "Weekly" : "Daily"} risk assessment
+          </p>
+        </div>
         <button
           onClick={() =>
             setMode((prev) => (prev === "weekly" ? "daily" : "weekly"))
           }
-          className="text-xs px-3 py-1 rounded-md border border-gray-300 hover:bg-gray-100"
+          className="text-sm font-medium px-4 py-2 rounded-lg border border-gray-300 bg-gray-100 hover:bg-gray-200 transition-colors shadow-sm"
         >
           {mode === "weekly" ? "View Daily" : "View Weekly"}
         </button>
       </div>
 
-      <div className="h-70">
+      <div className="h-80">
         <Bar data={data} options={options} />
       </div>
     </div>
@@ -99,4 +104,3 @@ const TopRiskWards = ({ limit = 10 }) => {
 };
 
 export default TopRiskWards;
-

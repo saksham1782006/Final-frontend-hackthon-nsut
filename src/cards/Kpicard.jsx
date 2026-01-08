@@ -9,8 +9,22 @@ const KpiCard = ({
   trendValue,   
   riskLevel,    
 }) => {
+  const getGradientClass = () => {
+    const titleLower = title.toLowerCase();
+    
+    if (titleLower.includes('high-risk') || titleLower.includes('active')) {
+      return 'bg-gradient-to-br from-red-50 via-white to-orange-50';
+    } else if (titleLower.includes('complaints')) {
+      return 'bg-gradient-to-br from-gray-50 via-white to-slate-50';
+    } else if (titleLower.includes('rainfall')) {
+      return 'bg-gradient-to-br from-cyan-50 via-white to-blue-50';
+    }
+    
+    return 'bg-gradient-to-br from-white to-gray-50';
+  };
+
   return (
-    <div className="bg-white rounded-lg border border-gray-200 p-4 flex flex-col justify-between">
+    <div className={`${getGradientClass()} rounded-lg border border-gray-200 p-4 shadow-sm hover:shadow-md transition-shadow duration-200 flex flex-col justify-between`}>
 
       <p className="text-sm text-gray-500 font-medium">
         {title}

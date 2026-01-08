@@ -115,33 +115,31 @@ const RainfallVsComplaints = () => {
   );
 
   return (
-    <div className="bg-white rounded-lg shadow p-4 h-80">
-      {/* Header */}
-      <div className="flex justify-between items-center mb-2">
-        <h3 className="text-sm font-semibold">
+    <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-5 h-80">
+      <div className="flex justify-between items-center mb-4">
+        <h3 className="text-base font-bold text-gray-800">
           Rainfall vs Complaints (Daily)
         </h3>
 
-        {/* Ward selector */}
         <div className="relative">
           <button
             onClick={() => setOpen(!open)}
-            className="w-full rounded-md px-3 py-1 text-sm text-left bg-gray-100 hover:bg-gray-200 transition pr-25"
+            className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 transition-colors border border-gray-300 shadow-sm"
           >
-            {selectedWard}
+            {selectedWard} ▼
           </button>
 
           {open && (
-            <div className="absolute right-0 mt-1 w-44 bg-white border rounded-md shadow z-20">
+            <div className="absolute right-0 mt-2 w-56 bg-white border border-gray-200 rounded-lg shadow-xl z-20">
               <input
                 type="text"
                 placeholder="Search ward..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="w-full px-2 py-1 text-xs border-b outline-none"
+                className="w-full px-3 py-2 text-sm border-b border-gray-200 outline-none focus:ring-2 focus:ring-blue-500 rounded-t-lg"
               />
 
-              <div className="max-h-40 overflow-y-auto">
+              <div className="max-h-48 overflow-y-auto">
                 {filteredWards.map((w) => (
                   <div
                     key={w.ward_id}
@@ -150,7 +148,7 @@ const RainfallVsComplaints = () => {
                       setOpen(false);
                       setSearch("");
                     }}
-                    className="px-2 py-1 text-xs hover:bg-gray-100 cursor-pointer"
+                    className="px-3 py-2 text-sm hover:bg-blue-50 cursor-pointer transition-colors"
                   >
                     {w.ward_name}
                   </div>
@@ -161,15 +159,14 @@ const RainfallVsComplaints = () => {
         </div>
       </div>
 
-      <Line data={data} options={options} />
+      <div className="h-64">
+        <Line data={data} options={options} />
+      </div>
     </div>
   );
 };
 
 export default RainfallVsComplaints;
-
-
-
 
 
 
