@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RiskBadge = ({ level }) => {
+const Riskbadge = ({ level }) => {
   const styles = {
     high: "bg-red-100 text-red-700",
     medium: "bg-yellow-100 text-yellow-700",
