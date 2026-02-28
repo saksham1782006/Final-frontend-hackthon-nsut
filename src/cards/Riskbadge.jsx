@@ -18,4 +18,4 @@ const RiskBadge = ({ level }) => {
   );
 };
 
-export default RiskBadge;
+export default Riskbadge;
