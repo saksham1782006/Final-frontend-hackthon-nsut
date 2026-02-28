@@ -1,5 +1,5 @@
 import React from 'react'
-import RiskBadge from "./RiskBadge";
+import Riskbadge from "./Riskbadge";
 
 const KpiCard = ({
   title,
@@ -52,7 +52,7 @@ const KpiCard = ({
             {trendValue}
           </div>
         )}
-        {riskLevel && <RiskBadge level={riskLevel} />}
+        {riskLevel && <Riskbadge level={riskLevel} />}
       </div>
     </div>
   );
