@@ -1,4 +1,4 @@
-🌊 GIS Water-Logging Hotspot Mapping System
+**🌊 GIS Water-Logging Hotspot Mapping System**
 An interactive web dashboard and GIS mapping tool designed to identify, visualize, and monitor water-logging hotspots across Delhi. This project was developed during the NSUT Hackathon to provide actionable insights for urban planning and disaster management.
 
 🚀 Features
