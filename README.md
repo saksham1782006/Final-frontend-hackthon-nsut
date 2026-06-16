@@ -1,16 +1,12 @@
-# React + Vite
+🌊 GIS Water-Logging Hotspot Mapping System
+An interactive web dashboard and GIS mapping tool designed to identify, visualize, and monitor water-logging hotspots across Delhi. This project was developed during the NSUT Hackathon to provide actionable insights for urban planning and disaster management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+Interactive GIS Map: Visualizes high-risk water-logging zones across different wards in Delhi.
+Real-Time Data Visualization: Dashboard metrics displaying the severity and frequency of water-logging incidents.
+Ward-Level Analysis: Granular data breakdown to help identify specific areas needing immediate infrastructure attention.
+Clean UI/UX: An intuitive, user-friendly interface designed for both citizens and city officials to easily navigate the data.
+🛠️ Tech Stack
+Frontend: [e.g., React.js, Tailwind CSS]
+Mapping/GIS: [e.g., Mapbox GL JS, Leaflet]
+Backend: [ Node.js,]
